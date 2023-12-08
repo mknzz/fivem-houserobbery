@@ -38,7 +38,4 @@ Built from the ground up with the older version 2.0 in mind, this iteration offe
 > * pd-safe
 >    
 
-## Buy Now and Save 💸
-Don’t miss this chance to get 3.0 Open Source at a discounted price. For a limited time only, we’re offering a special deal for our 2.0 users. 
-
 This resource is unencrypted. 100% of the source code is available. 🔓
