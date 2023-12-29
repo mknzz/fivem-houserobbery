@@ -2,6 +2,17 @@
 
 Built from the ground up with the older version 2.0 in mind, this iteration offers the entire source code for unlimited customization. Leveraging routing buckets and default ipls, this resource goes beyond house robberies, enabling the creation of various robbery jobs. While it retains the core functionality of version 2.0, there are significant changes in 3.0.
 
+Version 3.1 has been released. In addition, version 2.0 has been upgraded to an escrowed version of 3.1.
+
+## 3.1 New Features
+> * Revamped Boss Menu: The Boss menu has been overhauled for better user experience and functionality. [Default menu preview](https://gyazo.com/29194f2827ce011e1c2f3ddb3a4a5bd9) [ox menu preview](https://gyazo.com/b7a208937f33f8615bf493f9bcb95da6)
+>
+> * Group System Addition: A new group system, similar to the 2.0 version, has been added. Manage groups in the Boss menu.
+>
+> * Daily Tasks Feature: Upon server restart, players will now receive a random selection of tasks from the Config.TasksList. These tasks, which can be managed in the Boss menu, are to be completed during the house robbery. Successful completion rewards players with reputation points and additional items.
+>
+> * File Organization and New Additions: Client and server files have been reorganized for better structure. Additionally, menu.lua & items.lua has been added in preparation for the escrow version.
+
 ## [Watch the 3.0 Release Video 🎥](https://www.youtube.com/watch?v=tKXt39EOU7E)
 
 ## Key Features
