@@ -1,36 +1,40 @@
-# Explore the Brand New Version - Ultimate Open Source Burglary/House Robbery Script for FiveM 🪛
+# Advanced Burglary 3.3 Release
 
-Built from the ground up with the older version 2.0 in mind, this iteration offers the entire source code for unlimited customization. Leveraging routing buckets and default ipls, this resource goes beyond house robberies, enabling the creation of various robbery jobs. While it retains the core functionality of version 2.0, there are significant changes in 3.0.
+Welcome to the **Advanced Burglary 3.3** repository! This is the ultimate burglary/houserobbery script for FiveM, packed with exciting features and improvements.
 
-Version 3.1 has been released. In addition, version 2.0 has been upgraded to an escrowed version of 3.1.
+## Explore the Brand New Version 3.3
 
-## 3.1 New Features
-> * Revamped Boss Menu: The Boss menu has been overhauled for better user experience and functionality. [Default menu preview](https://gyazo.com/29194f2827ce011e1c2f3ddb3a4a5bd9) [ox menu preview](https://gyazo.com/b7a208937f33f8615bf493f9bcb95da6)
->
-> * Group System Addition: A new group system, similar to the 2.0 version, has been added. Manage groups in the Boss menu.
->
-> * Daily Tasks Feature: Upon server restart, players will now receive a random selection of tasks from the Config.TasksList. These tasks, which can be managed in the Boss menu, are to be completed during the house robbery. Successful completion rewards players with reputation points and additional items.
->
-> * File Organization and New Additions: Client and server files have been reorganized for better structure. Additionally, menu.lua & items.lua has been added in preparation for the escrow version.
+### Ultimate Burglary/House Robbery Script for FiveM 🪛
 
-## [Watch the 3.0 Release Video 🎥](https://www.youtube.com/watch?v=tKXt39EOU7E)
+**Update 3.3** marks the start of our journey to an all-in-one robbery resource. Take on **T4**, the challenge of a high-stakes, action-packed mission to rob a heavily guarded weapons cache. Navigate through layers of security: evade patrol guards, disable CCTV, crack the security keypad, and avoid triggering a lockdown that could spawn a formidable boss guard.
 
-## Key Features
-> * Tier System: Similar to the familiar setup in 2.0 with three default tiers. Now, effortlessly add extra tiers.
->
-> * Level System: Choose between setting required levels for tiers or utilize level scaling for increased chances as players level up.
->
-> * Expanded Interiors: Explore an array of interiors with locked doors requiring appropriate tools for access. Enhanced animations for a more immersive experience.
->
-> * Increased Compatibility: Maintains core design for QB while significantly improving usability with other target, library, or inventory resources.
->
-> * Enhanced Safe Cracking: Real safes that can be unlocked containing valuable loot.
->
-> * Motion-Based Security: Players must maintain stealth and reduce noise to prevent triggering alarms. Master the art of staying covert for a successful heist.
->
-> * Optimization: Enhanced performance, maintaining a performance of 0.0ms - 0.01ms.
->
-> * Expansive Carriables and Items: Discover 10 new carry props and over 15 unique items, along with tons of other props, offering an enriched exploration experience.
+### What's New in 3.3?
+
+- **🔒 Lockdown Mechanic**: Triggered by CCTV, a boss guard may spawn. Disable it with the ‘heistaxe’ item and smash the correct power box.
+- **🏠 Interior Overhaul**: Over 240 new objects and 35+ items, courtesy of Evelynn. All interiors are packed with detail!
+- **📋 New Free Menu**: Introducing sk-menu, recommended for smooth auto-refreshing items in the sell menu, but optional sk-menu.
+- **📈 Reworked Reputation System**: Easier configuration, rep rewarding, and new XP calculation.
+- **🔐 Improved Safe Opening**: No more instantly spawning open safes. A proper opening safe scene will now play.
+- **💰 New Sell Mechanic**: Items are randomly selected at resource start, with prices changing based on demand and rarity.
+- **🛡️ Outdoor Security**: Guards, keypads, alarms, power box, and CCTV for Tier 4.
+- **⚡ Enhanced Interactions**: Smoother animations for keypads, safes, and power boxes.
+- **⚙️ Improved Setup and Loading**: Refactored SetupInterior for smoother loading and reduced blackscreen time.
+
+There’s much more in this update! Check out the ⁠#latest-version channel in the Discord for detailed patch notes.
+
+### Key Features
+
+- **🎯 Tier System**: Expandable tiers with level scaling.
+- **🔒 Expanded Interiors**: Explore an array of interiors with locked doors requiring appropriate tools for access.
+- **🕶️ Stealth Mechanics**: Players must maintain stealth and reduce noise to prevent triggering alarms. Master the art of staying covert for a successful heist.
+- **🤝 Group Play**: Experience the thrill of strategizing and executing a house robbery as a cohesive group! Manage groups in the Boss menu.
+- **📋 Complete Daily Tasks**: Tackle random tasks from Config.TasksList during house robberies. Manage tasks in the Boss menu. Earn reputation points.
+
+### Documentation
+
+Find all the information you need to install and configure both the escrow and open-source versions of sk-burglary effectively.
+
+- GitHub.io Documentation
 
 ## You need the following required resources:
 > * qb-core
@@ -38,7 +42,8 @@ Version 3.1 has been released. In addition, version 2.0 has been upgraded to an 
 > * qb-target
 > * qb-skillbar
 > * qb-lockpick
-> 
+> * qb-minigames
+>
 
 ## You can also use the following optional resources for enhanced functionality:
 > * ox_lib
@@ -47,6 +52,8 @@ Version 3.1 has been released. In addition, version 2.0 has been upgraded to an 
 > * oxmysql
 > * ps-ui
 > * pd-safe
->    
+> * lb-phone
+> * sk-menu
+>  
 
 This resource is unencrypted. 100% of the source code is available. 🔓
