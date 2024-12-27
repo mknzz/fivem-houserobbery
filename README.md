@@ -8,11 +8,13 @@ Welcome to the **Advanced Burglary 3.3** repository! This is the ultimate burgla
 
 **Update 3.3** marks the start of our journey to an all-in-one robbery resource. Take on **T4**, the challenge of a high-stakes, action-packed mission to rob a heavily guarded weapons cache. Navigate through layers of security: evade patrol guards, disable CCTV, crack the security keypad, and avoid triggering a lockdown that could spawn a formidable boss guard.
 
+[🎥 Watch the 3.3 Release Video 🎥](https://youtu.be/h6XWSU4wIA8?si=cLtg9fOH3Bxguela)
+
 ### What's New in 3.3?
 
 - **🔒 Lockdown Mechanic**: Triggered by CCTV, a boss guard may spawn. Disable it with the ‘heistaxe’ item and smash the correct power box.
 - **🏠 Interior Overhaul**: Over 240 new objects and 35+ items, courtesy of Evelynn. All interiors are packed with detail!
-- **📋 New Free Menu**: Introducing sk-menu, recommended for smooth auto-refreshing items in the sell menu, but optional sk-menu.
+- **📋 New Free Menu**: Introducing sk-menu, recommended for smooth auto-refreshing items in the sell menu, but optional [sk-menu](https://github.com/mknzz/sk-menu).
 - **📈 Reworked Reputation System**: Easier configuration, rep rewarding, and new XP calculation.
 - **🔐 Improved Safe Opening**: No more instantly spawning open safes. A proper opening safe scene will now play.
 - **💰 New Sell Mechanic**: Items are randomly selected at resource start, with prices changing based on demand and rarity.
@@ -34,7 +36,7 @@ There’s much more in this update! Check out the ⁠#latest-version channel in 
 
 Find all the information you need to install and configure both the escrow and open-source versions of sk-burglary effectively.
 
-- GitHub.io Documentation
+- [GitHub.io Documentation](https://mknzz.github.io/burglary-docs/)
 
 ## You need the following required resources:
 > * qb-core
