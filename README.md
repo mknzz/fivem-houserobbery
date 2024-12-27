@@ -22,7 +22,7 @@ Welcome to the **Advanced Burglary 3.3** repository! This is the ultimate burgla
 - **⚡ Enhanced Interactions**: Smoother animations for keypads, safes, and power boxes.
 - **⚙️ Improved Setup and Loading**: Refactored SetupInterior for smoother loading and reduced blackscreen time.
 
-There’s much more in this update! Check out the ⁠#latest-version channel in the Discord for detailed patch notes.
+There’s much more in this update! Check out the ⁠[#latest-version](https://discord.com/channels/902289486128496652/963917396287037471) channel in the Discord for detailed patch notes.
 
 ### Key Features
 
