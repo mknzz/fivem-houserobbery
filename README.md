@@ -56,6 +56,15 @@ Find all the information you need to install and configure both the escrow and o
 > * pd-safe
 > * lb-phone
 > * sk-menu
->  
+>
+
+## QBox Supported
+**QBox** has been tested and is working, tested server version [QBox txAdminRecipe](https://github.com/Qbox-project/txAdminRecipe/blob/main/qbox.yaml).
+
+Make sure ox_lib, ox_target, and ox_inventory `enabled = true` in the main `config.lua.`
+
+In your QBox server config: setr qbx:enableBridge "true" # When true, enables the qb-core bridge for qbx_core. This should be true by default.
+
+---
 
 This resource is unencrypted. 100% of the source code is available. 🔓
