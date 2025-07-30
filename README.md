@@ -1,6 +1,30 @@
 # Advanced Burglary 3.3 Release
 
+<img width="3440" height="1440" alt="SK-BURGLARY (1)" src="https://github.com/user-attachments/assets/b8ab8cd6-f5ba-47f1-8422-c34be1bf1ee1" />
+
 Welcome to the **Advanced Burglary 3.3** repository! This is the ultimate burglary/houserobbery script for FiveM, packed with exciting features and improvements.
+
+## Major Update 3.3.6 Released - 12/07/2025
+A wide range of QoL improvements, new features, fixes, and enhanced support for QBox have been added.
+
+Some new changes:
+
+- The heist axe item used to disable the T4 lockdown is now physically attached to the boss guard’s back. It must be looted by any group member after he’s killed.
+- The Tier 4 setup ped is now a traitor guard wearing guard clothing. You’ll need to bribe him to get the T4 info/security item, if you refuse, there’s a good chance he’ll attack. You can still loot the required items from his body if he’s killed.
+- All guards can now be looted by any group member.
+- Guard peds now use randomised ped parents, hairstyles, face paint, and other variation attributes - so they no longer look like clones. All selections are made to avoid clipping issues with masks and accessories.
+- Added persistent, tier-based job cooldowns (until server restart).
+- Improved door enter/exit logic overall - prevents ox_target duplicate zones and warning spam.
+- Ensure an animation is passed to ox_lib progress bars to prevent moving while interacting (searching, looting, etc.).
+- Job request mails now include unique IDs and expiry timers (Config.MailExpiryTime) - prevents accepting expired jobs.
+- Improved group cleanup logic when the leader/member disconnects, exits, or crashes.
+- Interior peds now check for ownership transfer and retarget other players correctly.
+- Fixed guard targeting, attributes, and relationship group resets on owner change.
+- Switched to AddTargetEntity for networked peds - fixed qb-target errors and not being able to click the target when looting dead peds.
+- New indoor burglar alarm using xsound for Tiers 2 & 3 (Config.OptionalSound) - fallback to the classic beep if disabled.
+- Updated exterior alarm sound URL to a permanent xsound link.
+  
+There’s much more in this update - check out the full patch notes [GitHub.io](https://mknzz.github.io/burglary-docs/patchnotes.html#update-336---latest)!
 
 ## Explore the Brand New Version 3.3
 
@@ -37,26 +61,6 @@ There’s much more in this update! Check out the ⁠[#latest-version](https://d
 Find all the information you need to install and configure both the escrow and open-source versions of sk-burglary effectively.
 
 - [GitHub.io Documentation](https://mknzz.github.io/burglary-docs/)
-
-## You need the following required resources:
-> * qb-core
-> * qb-menu
-> * qb-target
-> * qb-skillbar
-> * qb-lockpick
-> * qb-minigames
->
-
-## You can also use the following optional resources for enhanced functionality:
-> * ox_lib
-> * ox_target
-> * ox_inventory
-> * oxmysql
-> * ps-ui
-> * pd-safe
-> * lb-phone
-> * sk-menu
->
 
 ## QBox Supported
 **QBox** has been tested and is working, tested server version [QBox txAdminRecipe](https://github.com/Qbox-project/txAdminRecipe/blob/main/qbox.yaml).
